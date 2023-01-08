@@ -15,6 +15,7 @@
   text-align: right;
   align-items: center;
   margin-left: 250px;
+  margin-bottom: 150px;
 }
 .banner-items {
   padding: 250px;
@@ -65,4 +66,117 @@ main {
   font-weight: 400;
   font-size: 16px;
   color: #444343;
+  margin-bottom: 10px;
+}
+.side-list {
+  list-style: none;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  text-align: left;
+}
+.my-plans {
+  margin: 0 230px;
+}
+.my-header {
+  margin-bottom: 56px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.my-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+.my-skills-name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-bottom: 15px;
+}
+.my-skills-desc {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+  text-align: center;
+}
+.middle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bts-back {
+  background-image: url("./images/watch.png"),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-repeat: no-repeat;
+  margin: 230px;
+  border-radius: 8px;
+  width: 1140px;
+  height: 300px;
+  background-blend-mode: overlay;
+  text-align: left;
+}
+.btn-second {
+  background-color: white;
+  color: #f15b22;
+  border: 0;
+  border-radius: 5px;
+  height: 60px;
+  padding: 18px 35px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+.bts-desc {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.bts-all {
+  padding: 60px 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 331px;
+  padding: 150px 250px;
+  background: #151414;
+}
+.footer-head {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+}
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+.footer-sub {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.icons {
+  display: flex;
+  gap: 17px;
+}
+.email {
+  border-radius: 5px;
+  margin-bottom: 24px;
+  background: #151414;
+  text-align: left;
+  border: 0 #000000;
+  color: #f8f8f8;
+  width: 325px;
+  height: 64px;
 }
